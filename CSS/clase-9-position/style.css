@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body {
+    width:100vw;
+    height:100vh;
+    background-color: #f1f1f1;
+    display: flex; align-items:center; justify-content:center;
+}
+
+main {
+    width:80%;
+    margin:0 auto;
+}
+
+.parent {
+    border: 3px dotted black;
+    display: none;
+}
+.box {
+    display: inline-block;
+    background-color: red;
+    width:100px;
+    height: 100px;
+}
+
+#dos {
+    background-color: green;
+}
+
+.contenedor {
+    width: 80%;
+    margin: 0 auto;
+    height:400px; 
+    background-color: #fff;
+    border-radius:10px;
+    position: relative;
+    display: flex; align-items:center; justify-content:center;
+    padding:40px;
+}
+.texto {
+   background-color: red; 
+   width:40%;
+   height:50px;
+   border-radius:10px;
+   position: absolute;
+   top:-25px;
+   right:180px;
+   display: flex; align-items:center; justify-content:center;
+}

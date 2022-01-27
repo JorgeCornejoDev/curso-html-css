@@ -1,0 +1,17 @@
+
+/* Combinador adjacent sibilings  "Hermano cercano, el primer argumento es el hermano el signo + es para definir a quien se va a realizar el cambio p */
+/* h2 + p {
+    color: red;
+} */
+
+
+/* Hermano general.. todos los que comparten en el mmismo contenedor */
+/* h2 ~ p {
+    color: red;
+} */
+
+
+/* Combinadores: Hijo y descendiente  */
+div > p {
+    color: red;
+}
